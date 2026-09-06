@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Belajar Coding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>KONTAK</h1>
+    <p>Hubungi saya</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="content">
+      <main class="main">
+        <h2>Formulir Kontak</h2>
+        <p>Kirim pesan atau saran buat saya:</p>
+
+        <form>
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama kamu" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesan di sini..." required></textarea>
+          </div>
+<!--Sementara aja ini biar bisa pakai get/post-->
+          <button type="submit" class="btn">KIRIM</button>
+        </form>
+      </main>
+
+      <aside class="sidebar">
+        <h2>Kontak Lain</h2>
+        <ul>
+          <li>Email: hafidzaskan@gmail.com</li>
+          <li>WhatsApp: 0812-xxxx-xxxx</li>
+          <li>GitHub: @forryoha</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 - Hafidz Yang PEMULA AJAH
+  </footer>
+
+</body>
+</html>
